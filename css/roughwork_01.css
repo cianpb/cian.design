@@ -200,7 +200,13 @@ h5{
 #about_info{
     padding-top: 165px;
     padding-bottom: 175px;
+    
 }
+
+.about_link{
+    vertical-align: top;
+}
+
 
 #contact_desktop{
     
@@ -611,6 +617,19 @@ Extra large   ≥1200px   .col-xl-
     padding-bottom: 10px !important;
     }
 
+    #about_experience{
+        margin-left: 0px !important;
+    }
+    
+    .about_divider{
+        border-width: 2px;
+        border-color: #161616;
+    }
+    
+    #about_info{
+        padding-bottom: 50px;
+        padding-top: 25px;
+    }
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
@@ -656,7 +675,9 @@ Extra large   ≥1200px   .col-xl-
 }
     
     
-    
+    .about_divider{
+        display: none;
+    }
     
 
 .thumbnails{
