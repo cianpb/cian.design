@@ -493,7 +493,7 @@ Extra large   ≥1200px   .col-xl-
     }
     
     #cian_dublin{
-        padding-top: 20px;
+        padding-top: 20px !important;
     }
     
     .roughwork_logo_top{
